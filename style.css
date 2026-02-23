@@ -2,6 +2,7 @@
 
 html {
     height: 100%;
+    width: 100%;
     font-family: "Roboto", sans-serif;
 }
 
@@ -14,14 +15,53 @@ body {
     
 }
 
+.infohead {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+.container {
+    margin: 0px 80px 80px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border:#3882F6 solid 5px;
+    border-radius: 25px;
+}
+
+.textual {
+    font-size: 18px;
+    color: rgb(130, 130, 130);
+    text-align: center;
+    padding-top: 18px;
+}
+
 .quotebox {
-    width: 600px;
     font-size: 36px;
     font-weight: 300;
     background-color: #E5E7EB;
     padding: 100px 300px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
 }
