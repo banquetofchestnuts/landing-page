@@ -12,7 +12,42 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+}
+
+.headcontainer {
+    width: 100%;
+    background-color: #1F2937;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headertab, .headercontent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .infohead {
@@ -23,7 +58,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-
 }
 
 .container {
@@ -82,7 +116,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .cta {
