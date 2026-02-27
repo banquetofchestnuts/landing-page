@@ -57,7 +57,7 @@ a, .lefttext {
 .left {
     width: 400px;
     height: 250px;
-    padding: 120px;
+    padding: 120px 120px 160px 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -67,6 +67,7 @@ a, .lefttext {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin: 0px;
 }
 
 .but {
@@ -83,7 +84,7 @@ a, .lefttext {
 .rightbox {
     width: 400px;
     height: 250px;
-    margin: 120px;
+    margin: 120px 120px 160px 120px;
     background-color: rgb(120, 120, 120);
     display: flex;
     justify-content: center;
@@ -131,14 +132,13 @@ a, .lefttext {
     font-size: 18px;
     color: rgb(130, 130, 130);
     text-align: center;
-    padding-top: 18px;
 }
 
 .quotebox {
     font-size: 36px;
     font-weight: 300;
     background-color: #E5E7EB;
-    padding: 100px 300px;
+    padding: 70px 300px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -148,7 +148,7 @@ a, .lefttext {
 .quote {
     font-size: 24px;
     font-weight: 600;
-    padding-top: 24px;
+    margin: 0px;
 }
 
 .signup {
@@ -171,11 +171,13 @@ a, .lefttext {
     font-size: 24px;
     font-weight: bold;
     color:#E5E7EB;
+    margin: 0px;
 }
 
 .text {
     color: #E5E7EB;
     font-size: 18px;
+    margin: 0px;
 }
 
 .sign {
