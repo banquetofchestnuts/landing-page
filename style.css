@@ -19,13 +19,17 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-
+    flex: auto;
 }
 
 .headertab, .headercontent {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.headertab {
+    padding: 10px;
 }
 
 ul {
@@ -47,17 +51,48 @@ a, .lefttext {
 .headerlogo {
     font-size: 24px;
     color: #F9FAF8;
+    padding-right: 270px;
 }
 
 .left {
+    width: 400px;
+    height: 250px;
+    padding: 120px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .lefthead {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+}
+
+.but {
+    background: #3882F6;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 5px 30px;
+    border: 2px solid #3882F6;
+    cursor: pointer;
+}
+
+.rightbox {
+    width: 400px;
+    height: 250px;
+    margin: 120px;
+    background-color: rgb(120, 120, 120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    font-size: 18px;
+    color:#E5E7EB;
 }
 
 .infohead {
